@@ -1,0 +1,262 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: 0 170px;
+}
+
+header {
+  display: flex;
+  padding: 16px 0;
+}
+
+.header-navs {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header > .header-navs > .header-menu {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  column-gap: 40px;
+  letter-spacing: 1px;
+  color: black;
+  font-size: 13px;
+  font-weight: 500;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+
+.btn {
+  margin-left: 32px;
+  padding: 12px 24px;
+  color: white;
+  background-color: #ff7500;
+  width: 155px;
+  height: 39px;
+  border: none;
+  border-radius: 4px;
+  opacity: 80%;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+header > .header-navs > .header-menu > .special-li {
+  color: #ff7500;
+}
+
+.u {
+  text-decoration: underline 3px #ff7500;
+  margin-left: 263px;
+}
+
+.hero {
+  display: flex;
+  background-color: #252420;
+  padding: 0 170px;
+}
+
+.hero > .informations > .h1 {
+  padding-top: 40px;
+  padding-bottom: 24px;
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: white;
+}
+
+.hero > .informations {
+  width: 387px;
+}
+
+.info {
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: white;
+  padding-bottom: 32px;
+}
+
+.hero-line {
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
+  margin-top: 80px;
+  margin-left: 10px;
+}
+
+.line {
+  width: 80px;
+  height: 3px;
+  background-color: #ff7500;
+  border: none;
+  margin-top: 80px;
+}
+
+.btn2 {
+  padding: 12px 24px;
+  color: white;
+  background-color: #ff7500;
+  width: 155px;
+  height: 39px;
+  border: none;
+  border-radius: 4px;
+  opacity: 80%;
+  font-size: 13px;
+  font-weight: 700;
+  margin-bottom: 77px;
+}
+
+.book-image > .imgdiv {
+  display: flex;
+  width: 510px;
+  height: 510px;
+  margin-left: 203px;
+  margin-top: 40px;
+  box-shadow: 24px 24px #ff750099;
+  border-radius: 8px;
+}
+
+.book-image {
+  display: flex;
+}
+
+/* .why {
+    display: flex;
+} */
+
+.reasons {
+  padding-top: 72px;
+  display: inline-block;
+  width: 314px;
+  height: 245px;
+  margin-right: 66px;
+  /* display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* column-gap: 40px; */
+  /* flex-direction: column;
+    row-gap: 40px; */
+}
+
+.question {
+  font-family: "Roboto Condensed";
+  width: 435px;
+  height: 172px;
+  padding-top: 24px;
+  font-weight: 700;
+  font-size: 72px;
+}
+
+.reasons > h5 {
+  font-family: "Roboto Condensed";
+  margin-right: 40px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28.8px;
+  letter-spacing: 0.5px;
+  padding-top: 32px;
+}
+
+.reasons > p {
+  letter-spacing: 0.5px;
+}
+
+.hero-2 {
+  display: flex;
+  margin-top: 330px;
+  color: white;
+  background-color: #252420;
+  height: 419px;
+  width: 1100px;
+}
+
+.hero-2 > .buy {
+  padding-left: 64px;
+  width: 440px;
+  height: 291px;
+}
+
+.buy-btn {
+  padding: 12px 24px;
+  color: white;
+  background-color: #ff7500;
+  width: 155px;
+  height: 39px;
+  border: none;
+  border-radius: 4px;
+  opacity: 80%;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.discount {
+  padding-top: 64px;
+  padding-bottom: 24px;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 48px;
+  letter-spacing: 0.5px;
+  font-family: "Roboto Condensed";
+}
+
+.info2 {
+  padding-top: 12px;
+  padding-bottom: 24px;
+}
+
+.hero-2 > .books-image > .divimg {
+  display: flex;
+  width: 440px;
+  height: 440px;
+  margin-left: 92px;
+  padding-bottom: 200px;
+  border-radius: 12px;
+  position: relative;
+  bottom: 80px;
+}
+
+.extra-menu {
+  display: flex;
+  padding-top: 216px;
+  background-color: #f8f8f8;
+  height: 80dvh;
+}
+
+.footer-image {
+  padding-bottom: 40px;
+}
+
+ul {
+  list-style: none;
+}
+
+.ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 68px;
+  line-height: 18.75px;
+  color: #252420;
+  padding-bottom: 56px;
+  position: relative;
+  right: 1000px;
+  top: 100px;
+}
+
+.l {
+  color: #ff7500;
+}
+
+.normal-line {
+  position: absolute;
+}
